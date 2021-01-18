@@ -1,0 +1,55 @@
+.modalInput {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(165, 162, 162);
+}
+
+.pagination {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  margin: 10px;
+}
+
+.active {
+  border: 1px solid cornflowerblue;
+  border-radius: 10px;
+}
+
+.inputSearchBar {
+  margin-left: 53%;
+  border-radius: 15px;
+  padding: 6px;
+  width: 250px;
+}
+.addButton {
+  margin-right: 20px;
+}
+.tableDescription {
+  height: 150px;
+  overflow: auto;
+}
+.tableDescription::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f9f9fd;
+}
+
+.tableDescription::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgb(165, 162, 162);
+}
+
+.tableDescription::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #f9f9fd;
+}
